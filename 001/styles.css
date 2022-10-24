@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: white;
+    width: 428px;
+    height: 926px;
+}
+.heading-container {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.left-arrow {
+    text-align: left;
+}
+
+.header {
+    text-align: center;
+    margin-left: 3em;
+}
+
+.sport {
+    list-style-type: none;
+}
+
+#logout {
+    color: red;
+}
+
+.accordion {
+    background-color: black !;
+    color: white;
+    border: none;
+}
