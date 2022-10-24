@@ -1,0 +1,50 @@
+* {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 15px;
+    width: fit-content;
+}
+
+.img-text {
+    text-align: center;
+}
+
+button {
+    width: 396px;
+    height: 57px;
+    font-size: medium;
+    border-radius: 8px;
+    left: 16px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    
+}
+#cont-btn {
+    background-color: #FFDF64;
+    border: none;
+}
+
+
+
+.alt-login {
+    background-color: #F5F5F5;
+    border: none;
+}
+
+
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h3 a {
+   text-decoration: underline; 
+}
