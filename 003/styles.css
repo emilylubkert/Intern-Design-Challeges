@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+body {
+    width: 428px;
+    height: 926px;
+}
+
 .img-container {
     display: grid;
     grid-template-columns: repeat(2, auto);
