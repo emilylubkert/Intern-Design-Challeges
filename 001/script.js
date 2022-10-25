@@ -1,8 +1,13 @@
-const logOutBtn = document.getElementById("logout") 
+const logOutBtn = document.getElementById('logout');
+const backBtn = document.getElementById('back-btn');
 
 const logOut = () => {
-    console.log("log out")
-}
+  console.log('log out');
+};
 
-logOutBtn.addEventListener("click", logOut, false)
+const goBack = () => {
+  console.log('go back');
+};
 
+logOutBtn.addEventListener('click', logOut, false);
+backBtn.addEventListener('click', goBack, false);
