@@ -1,0 +1,89 @@
+.App {
+  background: #FFFFFF;
+  width: 1728px;
+  height: 1117px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 1644px;
+}
+
+.tab {
+  font-weight: normal;
+  font-size: 32px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.input {
+  width: 1400px;
+  height: 46px;
+  border-radius: 26px;
+  background-color: #F1F1F1;
+  font-size: 24px;
+  margin-left: 42px;
+}
+
+.submit, .restore-button {
+  border-radius: 10px;
+  height: 48px;
+  width: max-content;
+  margin: 0 12px !important;
+}
+
+::placeholder {
+  padding-left: 2%;
+}
+.filter-btn {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.insult-table {
+  border-collapse: separate;
+  border-spacing: 0 28px;
+  margin-left: 42px;
+  width: 1644px;
+}
+
+td {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+tr {
+  width: 1644px;
+  height: 69px;
+  border-radius: 15px;
+}
+
+td:first-child {
+  border-top-left-radius: 15px; 
+  border-bottom-left-radius: 15px;
+}
+td:last-child {
+  border-bottom-right-radius: 15px; 
+  border-top-right-radius: 15px; 
+}
+
+.odd {
+  background: #E1E0F6;
+}
+
+.even {
+  background: #BEE1F9;
+
+}
