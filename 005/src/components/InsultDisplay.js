@@ -48,12 +48,12 @@ function InsultDisplay() {
 
   const insultsList = display.map((insult, index) => {
     return (
-      <tr key={index}>
-        <td className={insult.id % 2 === 0 ? "even" : "odd"}>{insult.username}</td>
-        <td className={insult.id % 2 === 0 ? "even" : "odd"}>{insult.insult}</td>
-        <td className={insult.id % 2 === 0 ? "even" : "odd"}>{insult.school}</td>
-        <td className={insult.id % 2 === 0 ? "even" : "odd"}>{insult.subject}</td>
-        <td className={insult.id % 2 === 0 ? "even" : "odd"}>{showStars(insult.rating)}</td>
+      <tr className={index % 2 === 0 ? "even" : "odd"} key={index}>
+        <td>{insult.username}</td>
+        <td>{insult.insult}</td>
+        <td>{insult.school}</td>
+        <td>{insult.subject}</td>
+        <td>{showStars(insult.rating)}</td>
       </tr>
     );
   });
