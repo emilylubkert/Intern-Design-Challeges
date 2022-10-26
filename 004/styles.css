@@ -1,0 +1,46 @@
+body {
+    width: 1728px;
+    height: 1117px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.header-parent {
+    position: relative;
+    top: 85px;
+    left: 42px;
+}
+
+.crowdPic {
+    position: relative;
+    top: 85px;
+    left: 42px;
+}
+
+.profilePic {
+    position: absolute;
+    top: 84px;
+    left: 41px;
+}
+#search {
+    position: relative;
+    z-index: 1 ;
+    border-radius: 26px;
+    width: 1082px;
+    height: 46px;
+}
+
+.recs-container {
+    display: flex;
+}
+
+.card {
+    /* margin-left: 42px; */
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-body {
+    background: #FFD4D4;
+    ;
+}
