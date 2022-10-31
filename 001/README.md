@@ -6,4 +6,4 @@ For: A book discovery app
 
 To Help: Sports Fans
 
-![Design](/images/001.png)
+<img src="./images/001.png" />
