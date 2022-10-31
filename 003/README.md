@@ -7,4 +7,4 @@ For: A habit-tracking app
 To Help: Designers
 
 
-<img src="./images/003.png" />
+<img height=500px src="./images/script.png" />
